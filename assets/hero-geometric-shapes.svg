@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" fill="none">
+<defs>
+ <linearGradient id="left" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#416DB9" stop-opacity=".15"/><stop offset="1" stop-color="#416DB9" stop-opacity=".015"/></linearGradient>
+ <linearGradient id="right" x1="1" y1="0" x2="0" y2="0"><stop stop-color="#416DB9" stop-opacity=".15"/><stop offset="1" stop-color="#416DB9" stop-opacity=".015"/></linearGradient>
+</defs>
+<!-- Geometric Shapes: sparse, offset, semi-transparent polygon panels at the hero edges. -->
+<g stroke="#6589C6" stroke-width="1.15" stroke-opacity=".26">
+ <path d="M-80 145 L160 145 L58 330 L-182 330 Z" fill="url(#left)"/>
+ <path d="M40 345 L278 345 L174 529 L-65 529 Z" fill="url(#left)"/>
+ <path d="M-135 545 L88 545 L-15 728 L-238 728 Z" fill="url(#left)"/>
+ <path d="M154 80 L334 80 L250 230 L70 230 Z"/>
+ <path d="M142 575 L336 575 L252 724 L58 724 Z"/>
+ <path d="M1680 125 L1440 125 L1542 310 L1782 310 Z" fill="url(#right)"/>
+ <path d="M1560 338 L1322 338 L1426 522 L1665 522 Z" fill="url(#right)"/>
+ <path d="M1735 540 L1512 540 L1615 723 L1838 723 Z" fill="url(#right)"/>
+ <path d="M1446 65 L1266 65 L1350 215 L1530 215 Z"/>
+ <path d="M1458 575 L1264 575 L1348 724 L1542 724 Z"/>
+</g>
+<g fill="#527AC2" fill-opacity=".045">
+ <path d="M-60 245 L94 245 L30 361 L-124 361 Z"/>
+ <path d="M1660 232 L1506 232 L1570 348 L1724 348 Z"/>
+</g>
+</svg>
