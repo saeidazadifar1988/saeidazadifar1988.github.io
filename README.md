@@ -1,17 +1,19 @@
-# Saeid Azadifar — Black & Green AI/ML Portfolio
+# Saeid Azadifar — Portfolio
 
-Custom independent HTML/CSS/JavaScript portfolio inspired by the black-and-lime aesthetic of the user-provided RyanCV ML Engineer screenshot. Not a copy of the proprietary theme.
+Single-page portfolio (plain HTML, CSS and JavaScript, no build step). Light and dark themes, navy palette.
+
+## Files
+- `index.html` — the whole site (styles and scripts are inline)
+- `assets/portrait.webp` — your photo (add it; if missing, the page shows "SA" initials)
+- `Saeid_Azadifar_AI_Engineering_CV.pdf`, `Saeid_Azadifar_Research_CV.pdf` — downloadable CVs
 
 ## Preview
 Open `index.html` in a browser.
 
 ## Deploy to GitHub Pages
-Upload the contents of this folder to the root of your `saeidazadifar1988.github.io` repository and enable Pages in repository Settings.
+1. Put these files in the root of the `saeidazadifar1988.github.io` repository (delete the old `style.css`, `dark.css` and `script.js`; they are no longer used).
+2. Make sure `assets/portrait.webp` exists.
+3. Settings → Pages → deploy from the `main` branch, root folder.
 
 ## Edit
-- `index.html`: biography, links, sections, projects, career and publications
-- `dark.css`: black-and-green theme (overrides base `style.css`)
-- `assets/portrait.webp`: personal photo
-- PDF files: downloadable CVs
-
-The two CV PDFs were copied from the previously created portfolio. Review all CV claims and links before publishing.
+Search `index.html` for the text you want to change. Colors are CSS variables at the top of the `<style>` block (`--teal` is the main navy, `--navy` the dark panels).
